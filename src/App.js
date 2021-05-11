@@ -29,10 +29,12 @@ const UserProfile = (props) => {
   )
 }
 
+/*propTypesで型定義をすることができる*/
 UserProfile.propTypes = {
   name: propTypes.string,
   age: propTypes.number.isRequired,
   description: propTypes.string
 }
 
-export default App;
+
+export default App; 
